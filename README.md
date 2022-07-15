@@ -16,12 +16,13 @@ Heart disease is the number one killer of Americans, accounting for 21% of all d
 ## Results
 ### Visualizations of identified trends as well as data peculiarities
 
-Correlation between price and sales
+Plot of Age vs Max Heart Rate, with blue representing no heart disease and red representing heart disease patients.
 ![scatter](https://user-images.githubusercontent.com/25378587/179225335-e8416fc2-0d2b-40e1-a89f-9bf4e41ed741.png)
 
 
-The nearly uniform distribution of weight amongst types.
-![image](https://user-images.githubusercontent.com/25378587/172199944-4c03469e-c865-4c41-9b98-48b6c35a9a86.png)
+Confusion Matrix of predictions on test set by neural network.
+![Greens](https://user-images.githubusercontent.com/25378587/179225598-f1445902-5fed-4c98-a339-66be6bc2c0ae.png)
+
 
 ## Model
 The most accurate predictive model used was a Neural Network which was able to correctly determine if a patient did/did not have heart disease with 88% precision. Resulting in 203 correct predictions out of 230.
