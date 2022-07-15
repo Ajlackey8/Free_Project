@@ -5,7 +5,7 @@ Author: Andrew Lackey
 Food supply requires stocking perishable goods in the right quantities to move goods to customers without overstocking wildly and having product spoil. Creating a model that accurately predicts necessary sales volume is critical to running a profitable venture in this industry.
 ### Data:
 [Data can include source and high-level description (e.g. # obs)](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/)
-The data is from the Big Mart Sales Practice Problem set on datahack and gives descriptive data about various features of grocery chain logistics. e.g. item weights, prices, visibility, type, and information about the store in which they were sold.
+The data is from kaggle and has 11 different features describing health related metrics such as age, maximum heart rate, blood pressure, etc. As well as whether or not the patient developed heart disease.
 
 ## Methods
 * Data processed to impute or remove erroneous data or missing records.
