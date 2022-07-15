@@ -1,16 +1,17 @@
-# Free_Project (Fill in the correct stuff)
-## Analysis of grocer sales data to identify market trends and predict sales volumes.
+# Free_Project
+## Analysis of Health Information and it's use in diagnosing and predicting Heart Disease for the Health Industry.
 Author: Andrew Lackey
-### Accurate predictions of sale volumes:
-Food supply requires stocking perishable goods in the right quantities to move goods to customers without overstocking wildly and having product spoil. Creating a model that accurately predicts necessary sales volume is critical to running a profitable venture in this industry.
+### Accurate predictions of Heart Disease:
+Heart disease is the number one killer of Americans, accounting for 21% of all deaths in 2020. The ability to accurately predict and intervene with preventative measures is a valuable tool in helping hospitals and insurance companies reduce the number of people suffering and dying from these issues.
 ### Data:
-[Data can include source and high-level description (e.g. # obs)](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/)
-The data is from kaggle and has 11 different features describing health related metrics such as age, maximum heart rate, blood pressure, etc. As well as whether or not the patient developed heart disease.
+[The data is from kaggle)](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+ and has 11 different features describing health related metrics such as age, maximum heart rate, blood pressure, etc. As well as whether or not the patient developed heart disease.
 
 ## Methods
 * Data processed to impute or remove erroneous data or missing records.
 * Data trends explored by creating correlations and visualizations of those correlations.
-* Linear regression and decision tree regression applied to the (split for training/testing) data set to create predictive models for the sales volumes
+* KNearest Neighbor, Logistic Regression, and Neural Networking applied to the (split for training/testing) data set to create predictive models for predicting Heart Disease.
+* Best model evaluated and selected.
 
 ## Results
 ### Visualizations of identified trends as well as data peculiarities
@@ -22,10 +23,10 @@ The nearly uniform distribution of weight amongst types.
 ![image](https://user-images.githubusercontent.com/25378587/172199944-4c03469e-c865-4c41-9b98-48b6c35a9a86.png)
 
 ## Model
-The most accurate predictive model used was a decision tree regressor which resulted in a RMSE of ~1000 for a field with a mean of ~2200, and an R2 fit to the testing split of 0.6 which, while leaving room for improvement, gives a good first step prediction of expected sales considering the range was 33 to 8500. 
+The most accurate predictive model used was a Neural Network which was able to correctly determine if a patient did/did not have heart disease with 88% precision. Resulting in 203 correct predictions out of 230.
 
 ## Recommendations:
-Running a more variable model might give us further improved results as the distinct skewing of the numbers by some categorical store data seems to have been an issue.
+Further tuning the neural network to bias the results in favor of positive results. False negatives could have unwanted consequences for both patient and healthcare provider so having the model require more confidence to assign a negative would create less accurate results, but create more conservative results that avoid false negatives.
 
 ### For further information
 For any additional questions, please contact ajlackey8@gmail.com
